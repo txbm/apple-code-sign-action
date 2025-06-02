@@ -176,7 +176,7 @@ async function run() {
         args.push('--wait')
       }
 
-      args.push('--max-wait-seconds 1200')
+      args.push('--max-wait-seconds', '1200')
 
       args.push(signedPath)
 
