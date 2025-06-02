@@ -174,6 +174,7 @@ async function run() {
         args.push('--staple')
       } else {
         args.push('--wait')
+        args.push('--max-wait-seconds 1200')
       }
 
       args.push(signedPath)
